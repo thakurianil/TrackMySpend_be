@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-const allowedOrigin = "https://thakurianil-trackmyspend.vercel.app" || "http://localhost:3000";
+const allowedOrigin = "https://thakurianil-trackmyspend.vercel.app";
 
 app.use(
     cors({
